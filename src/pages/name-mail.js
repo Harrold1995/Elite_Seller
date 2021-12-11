@@ -6,18 +6,25 @@ const fontName = {
 };
 export default function Namemail() {
     return(
-        <div className="col">
-            What is your name and email?
-                <div className="col">
-                    <div className="col-sm-12">
-                        <form>
+        <div className="col-sm-5">
+            <p className="bg-primary">What is your name and email?</p>
+            <div className="mt-5">
+                Please enter your name and email address below
+                    <div className="row">
+                        <div className="col-sm-12"> 
                             <input type="text" class="form-control" placeholder="First Name" required=""></input> 
-                            <input type="last name" class="form-control mt-2" placeholder="Last Name" required=""></input>
+                        </div>
+                        <div className="col-sm-12">
+                            <input type="last name" class="form-control mt-2" placeholder="Last Name" required=""></input>     
+                        </div>
+                        <div className="col-sm-12">
                             <input type="email" class="form-control mt-2" placeholder="Email" required=""></input>
-                            <button type="continue" class="btn btn-dark mt-2">Continue</button>
-                        </form>
-                    </div>    
-                </div>
+                        </div>
+                        <div className="col-sm-12">
+                            <button type="continue" class="btn btn-dark mt-2">Continue</button>  
+                        </div>
+                    </div>
+            </div>        
         </div>
     );
 }
