@@ -1,7 +1,8 @@
 import React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
-// import { withPrefix, Link } from "gatsby";   
+import SideBar from "./SideBar";
+// import { withPrefix, Link } from "gatsby";
 
 import { Helmet } from "react-helmet";
 
@@ -18,6 +19,7 @@ export default function Layout({children}){
             </Helmet>
             <div id="content" className="site-content landingpage lang-en landing_page">
                 <Header/>
+                <SideBar/>
                 <main>{children}</main>
                 <Footer/>
             </div>            
