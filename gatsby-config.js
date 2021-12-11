@@ -3,5 +3,5 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "Elite Seller",
   },
-  plugins: [],
+  plugins: ["gatsby-plugin-fontawesome-css"],
 };
