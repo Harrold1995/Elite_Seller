@@ -16,7 +16,7 @@ export default function Layout({children}){
                 <link rel="alternate" type="application/json+oembed" href="https://pages.landingcube.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpages.landingcube.com%2Fpromo%2Fpusheen-happy-birthday-plush-modern%2F" />
                 <link rel="alternate" type="text/xml+oembed" href="https://pages.landingcube.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpages.landingcube.com%2Fpromo%2Fpusheen-happy-birthday-plush-modern%2F&#038;format=xml" />
               
-                <script type='text/javascript' src='https://pages.landingcube.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+                <script type='text/javascript' src='ht`tps://pages.landingcube.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
                 <script type='text/javascript' src='https://pages.landingcube.com/wp-content/themes/landingcube/third-party/slick/slick.min.js?ver=49.0.0' id='slick-js'></script>
                 <script type='text/javascript' src='https://pages.landingcube.com/wp-content/themes/landingcube/templates/layouts/layout_3/layout_3.min.js?ver=49.0.0' id='sendpromos-layout_3-js'></script>
                 <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.6.1/iframeResizer.contentWindow.min.js?ver=3.6.1' id='iframeresizer-js'></script>
