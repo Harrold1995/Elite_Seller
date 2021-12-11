@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 
 
 const verticalCenter = {
-    'margin-top':'300px'
+    'margin-top':'10%'
 }
 export default function Namemail() {
     return(
@@ -15,7 +15,7 @@ export default function Namemail() {
             </Helmet>
             <div className="container">
                 <div className="col-sm-4 offset-sm-4" style={verticalCenter}>
-                    <p className="fs-3 fw-bold">What is your name and email?</p>
+                    <p className="fs-4 fw-bold">What is your name and email?</p>
                     <div className="mt-3">
                         <div className="mb-4">Please enter your name and email address below</div>  
                         <div className="row">
