@@ -1,5 +1,5 @@
 import React from "react";
-
+import BrandIcon from "../images/logo.svg";
 export default function Header(){
     return (
         // <header id="sticky-nav-header">
@@ -19,30 +19,20 @@ export default function Header(){
         //     </div>
         // </header>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <div className="container-fluid">
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a className="navbar-brand" href="#">
+            <div className="container-fluid mt-2 mb-2">
+                <div className="row w-100">
+                    <div className="col-sm-4">
                     <i className="fas fa-bars"></i>
-                </a>
-                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li className="nav-item">
-                    <a className="nav-link" href="#">Link</a>
-                    </li>
-                    <li className="nav-item">
-                    <a className="nav-link disabled">Disabled</a>
-                    </li>
-                </ul>
-                <form className="d-flex">
-                    <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                    <button className="btn btn-outline-success" type="submit">Search</button>
-                </form>
-                </div>
+                    </div>
+                    <div className="col-sm-4 text-center" >
+                        <img src={BrandIcon} width="100"/>
+                    </div>
+                    <div className="col-sm-4 text-end">
+                        <i className="fab fa-amazon me-3"></i>
+                        <i className="fas fa-bell me-3"></i>
+                        <i className="fas fa-cogs"></i>
+                    </div>
+                </div>              
             </div>
         </nav>
     );
