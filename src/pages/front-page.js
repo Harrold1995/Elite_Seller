@@ -1,7 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
 
-
 const imgStyle = {
     display: 'inline-block',
     width: '100%'
@@ -26,6 +25,7 @@ const slickTrack1 = {
 const reviewStyle = {
     width: '100%', display: 'inline-block'
 }
+
 
 function FrontPage() {
   return (
@@ -463,65 +463,65 @@ function FrontPage() {
                 </span>
                 </div>
             </div>
-            </section>
-            <section id="faq-div">
-                <div className="wrapper">
-                    <svg className="nc-icon glyph icon-faq2 section-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                    <path fill="rgb( var(--main-bg-color) )" fill-rule="evenodd" d="M22.391 5.976a11.95 11.95 0 0 0-4.367-4.367C16.185.536 14.178 0 12 0 9.823 0 7.815.536 5.977 1.61A11.947 11.947 0 0 0 1.61 5.975C.536 7.816 0 9.823 0 12s.537 4.185 1.61 6.023a11.95 11.95 0 0 0 4.367 4.368C7.815 23.464 9.823 24 12 24c2.177 0 4.185-.536 6.024-1.61a11.947 11.947 0 0 0 4.367-4.367C23.464 16.185 24 14.177 24 12c0-2.177-.536-4.185-1.609-6.024zM14.001 19.5a.487.487 0 0 1-.141.36.485.485 0 0 1-.36.14h-3a.487.487 0 0 1-.359-.14.486.486 0 0 1-.14-.36v-3c0-.146.046-.266.14-.36a.488.488 0 0 1 .36-.14h3c.146 0 .265.047.359.14.093.094.14.214.14.36v3zm3.804-9.234c-.13.385-.276.7-.437.945a3.62 3.62 0 0 1-.696.75 6.52 6.52 0 0 1-.719.547c-.177.11-.432.258-.765.445a2.632 2.632 0 0 0-.851.774c-.224.317-.336.575-.336.773a.487.487 0 0 1-.141.36.486.486 0 0 1-.36.14h-3a.487.487 0 0 1-.359-.14.486.486 0 0 1-.14-.36v-.563c0-.698.273-1.352.82-1.96.547-.61 1.148-1.06 1.805-1.352.5-.23.854-.464 1.062-.703.209-.24.313-.558.313-.954 0-.344-.196-.65-.586-.922a2.288 2.288 0 0 0-1.336-.406c-.542 0-.99.125-1.344.375-.344.25-.792.73-1.344 1.438a.46.46 0 0 1-.39.187.442.442 0 0 1-.297-.093L6.64 7.984c-.24-.187-.28-.406-.125-.656C7.85 5.109 9.782 4 12.313 4c.907 0 1.792.213 2.657.64a5.918 5.918 0 0 1 2.164 1.813C17.71 7.234 18 8.083 18 9c0 .458-.066.88-.196 1.266z"></path>
+        </section>
+        <section id="faq-div">
+            <div className="wrapper">
+                <svg className="nc-icon glyph icon-faq2 section-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path fill="rgb( var(--main-bg-color) )" fill-rule="evenodd" d="M22.391 5.976a11.95 11.95 0 0 0-4.367-4.367C16.185.536 14.178 0 12 0 9.823 0 7.815.536 5.977 1.61A11.947 11.947 0 0 0 1.61 5.975C.536 7.816 0 9.823 0 12s.537 4.185 1.61 6.023a11.95 11.95 0 0 0 4.367 4.368C7.815 23.464 9.823 24 12 24c2.177 0 4.185-.536 6.024-1.61a11.947 11.947 0 0 0 4.367-4.367C23.464 16.185 24 14.177 24 12c0-2.177-.536-4.185-1.609-6.024zM14.001 19.5a.487.487 0 0 1-.141.36.485.485 0 0 1-.36.14h-3a.487.487 0 0 1-.359-.14.486.486 0 0 1-.14-.36v-3c0-.146.046-.266.14-.36a.488.488 0 0 1 .36-.14h3c.146 0 .265.047.359.14.093.094.14.214.14.36v3zm3.804-9.234c-.13.385-.276.7-.437.945a3.62 3.62 0 0 1-.696.75 6.52 6.52 0 0 1-.719.547c-.177.11-.432.258-.765.445a2.632 2.632 0 0 0-.851.774c-.224.317-.336.575-.336.773a.487.487 0 0 1-.141.36.486.486 0 0 1-.36.14h-3a.487.487 0 0 1-.359-.14.486.486 0 0 1-.14-.36v-.563c0-.698.273-1.352.82-1.96.547-.61 1.148-1.06 1.805-1.352.5-.23.854-.464 1.062-.703.209-.24.313-.558.313-.954 0-.344-.196-.65-.586-.922a2.288 2.288 0 0 0-1.336-.406c-.542 0-.99.125-1.344.375-.344.25-.792.73-1.344 1.438a.46.46 0 0 1-.39.187.442.442 0 0 1-.297-.093L6.64 7.984c-.24-.187-.28-.406-.125-.656C7.85 5.109 9.782 4 12.313 4c.907 0 1.792.213 2.657.64a5.918 5.918 0 0 1 2.164 1.813C17.71 7.234 18 8.083 18 9c0 .458-.066.88-.196 1.266z"></path>
+                </svg>
+                <div className="headline content-editable" id="faq-headline">Questions?</div>
+                <div id="faqs">
+                <div className="question open">
+                    <svg className="nc-icon glyph icon-dropdown " xmlns="http://www.w3.org/2000/svg" width="20" height="10" viewBox="0 0 20 10">
+                    <g fill="none" fill-rule="nonzero">
+                        <path d="M-2 17h24V-7H-2z"></path>
+                        <path stroke="rgb( var(--main-bg-color) )" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 9l9-8 9 8"></path>
+                    </g>
                     </svg>
-                    <div className="headline content-editable" id="faq-headline">Questions?</div>
-                    <div id="faqs">
-                    <div className="question open">
-                        <svg className="nc-icon glyph icon-dropdown " xmlns="http://www.w3.org/2000/svg" width="20" height="10" viewBox="0 0 20 10">
-                        <g fill="none" fill-rule="nonzero">
-                            <path d="M-2 17h24V-7H-2z"></path>
-                            <path stroke="rgb( var(--main-bg-color) )" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 9l9-8 9 8"></path>
-                        </g>
-                        </svg>
-                        <div className="question-title content-editable content-editable-faq">Why are you running this promotion?</div>
-                    </div>
-                    <div className="question">
-                        <svg className="nc-icon glyph icon-dropdown " xmlns="http://www.w3.org/2000/svg" width="20" height="10" viewBox="0 0 20 10">
-                        <g fill="none" fill-rule="nonzero">
-                            <path d="M-2 17h24V-7H-2z"></path>
-                            <path stroke="rgb( var(--main-bg-color) )" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 9l9-8 9 8"></path>
-                        </g>
-                        </svg>
-                        <div className="question-title content-editable content-editable-faq">Can I trust you?</div>
-                    </div>
-                    <div className="question">
-                        <svg className="nc-icon glyph icon-dropdown " xmlns="http://www.w3.org/2000/svg" width="20" height="10" viewBox="0 0 20 10">
-                        <g fill="none" fill-rule="nonzero">
-                            <path d="M-2 17h24V-7H-2z"></path>
-                            <path stroke="rgb( var(--main-bg-color) )" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 9l9-8 9 8"></path>
-                        </g>
-                        </svg>
-                        <div className="question-title content-editable content-editable-faq">How can I use my coupon on Amazon?</div>
-                    </div>
-                    <div className="question">
-                        <svg className="nc-icon glyph icon-dropdown " xmlns="http://www.w3.org/2000/svg" width="20" height="10" viewBox="0 0 20 10">
-                        <g fill="none" fill-rule="nonzero">
-                            <path d="M-2 17h24V-7H-2z"></path>
-                            <path stroke="rgb( var(--main-bg-color) )" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 9l9-8 9 8"></path>
-                        </g>
-                        </svg>
-                        <div className="question-title content-editable content-editable-faq">Does this include free shipping?</div>
-                     </div>
+                    <div className="question-title content-editable content-editable-faq">Why are you running this promotion?</div>
+                </div>
+                <div className="question">
+                    <svg className="nc-icon glyph icon-dropdown " xmlns="http://www.w3.org/2000/svg" width="20" height="10" viewBox="0 0 20 10">
+                    <g fill="none" fill-rule="nonzero">
+                        <path d="M-2 17h24V-7H-2z"></path>
+                        <path stroke="rgb( var(--main-bg-color) )" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 9l9-8 9 8"></path>
+                    </g>
+                    </svg>
+                    <div className="question-title content-editable content-editable-faq">Can I trust you?</div>
+                </div>
+                <div className="question">
+                    <svg className="nc-icon glyph icon-dropdown " xmlns="http://www.w3.org/2000/svg" width="20" height="10" viewBox="0 0 20 10">
+                    <g fill="none" fill-rule="nonzero">
+                        <path d="M-2 17h24V-7H-2z"></path>
+                        <path stroke="rgb( var(--main-bg-color) )" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 9l9-8 9 8"></path>
+                    </g>
+                    </svg>
+                    <div className="question-title content-editable content-editable-faq">How can I use my coupon on Amazon?</div>
+                </div>
+                <div className="question">
+                    <svg className="nc-icon glyph icon-dropdown " xmlns="http://www.w3.org/2000/svg" width="20" height="10" viewBox="0 0 20 10">
+                    <g fill="none" fill-rule="nonzero">
+                        <path d="M-2 17h24V-7H-2z"></path>
+                        <path stroke="rgb( var(--main-bg-color) )" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 9l9-8 9 8"></path>
+                    </g>
+                    </svg>
+                    <div className="question-title content-editable content-editable-faq">Does this include free shipping?</div>
                     </div>
                 </div>
-            </section>
-            <section class="call-to-action">
-                <div class="wrapper">
-                    <div class="product-cta-percent-off">
-                    <div class="product-cta-percent-off-inner percent">
-                        <span class="cta-percent-off-value">96%</span>
-                        <span class="cta-percent-off-text">off</span>
-                    </div>
-                    </div>
-                    <div class="call-to-action-text headline content-editable">What Are You Waiting For?</div>
-                    <button type="button" class="button cta-button">Claim Coupon</button>
+            </div>
+        </section>
+        <section class="call-to-action">
+            <div class="wrapper">
+                <div class="product-cta-percent-off">
+                <div class="product-cta-percent-off-inner percent">
+                    <span class="cta-percent-off-value">96%</span>
+                    <span class="cta-percent-off-text">off</span>
                 </div>
-            </section>
+                </div>
+                <div class="call-to-action-text headline content-editable">What Are You Waiting For?</div>
+                <button type="button" class="button cta-button">Claim Coupon</button>
+            </div>
+        </section>
     </Layout>
   );
 }
