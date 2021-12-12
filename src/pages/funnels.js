@@ -10,7 +10,7 @@ import giftcard from "../images/gift-card.png";
 export default function Funnels(){
     return (
         <Layout>
-            <div className="d-flex side-bar align-items-start">
+            <div className="d-flex side- align-items-start">
                 <div className="h-100 border-end col-sm-2-custom">
                    <SideBar/>
                 </div>

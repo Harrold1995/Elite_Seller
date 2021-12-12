@@ -9,7 +9,7 @@ html,body, #___gatsby, #gatsby-focus-wrapper{
     height: 100%;
 }
 .col-sm-2-custom {
-    width: 11.5% !important;
+    width: 15.5% !important;
 }
 .menu-link:hover{
     background-color: #eee;
@@ -25,4 +25,11 @@ html,body, #___gatsby, #gatsby-focus-wrapper{
 }
 .mt-10{
     margin-top: 10%;
+}
+.resize-none{
+    resize:none;
+    height: 200px;
+}
+.checked {
+    color: blue;
 }

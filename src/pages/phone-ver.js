@@ -18,10 +18,10 @@ export default function PhoneVerify() {
                         <div className="mb-4">We have just sent a verification code to <b> 6266428210</b></div>
                         <div className="mb-4">Once you get code, enter it below</div>
                         <div className="row">
-                            <div className="col-sm-6"> 
+                            <div className="col-sm-5"> 
                                 <input type="text" value="0000" className="form-control fs-6 fw-bold text-center" placeholder="Code" required=""></input>
                             </div>
-                            <div className="col-sm-6"> 
+                            <div className="col-sm-5"> 
                                 <button type="verify" className="btn btn-primary">Verify</button>
                             </div>
                         </div> 
