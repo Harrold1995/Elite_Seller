@@ -1,11 +1,8 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
-
-const verticalCenter = {
-    'margin-top':'300px'
-}
-export default function Namemail() {
+import '../components/css/style.css';
+export default function NameMail() {
     return(
         <>
             <Helmet>                            
@@ -14,23 +11,26 @@ export default function Namemail() {
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
             </Helmet>
             <div className="container">
-                <div className="col-sm-4 offset-sm-4" style={verticalCenter}>
-                    <p className="fs-3 fw-bold">What is your name and email?</p>
+                <div className="col-sm-4 offset-sm-4 mt-10">
+                    <p className="fs-4 fw-bold">What is your name and email?</p>
                     <div className="mt-3">
                         <div className="mb-4">Please enter your name and email address below</div>  
-                        <div className="row">
-                            <div className="col-sm-12"> 
-                                <input type="text" className="form-control" placeholder="First Name" required=""></input> 
-                            </div>
-                            <div className="col-sm-12">
-                                <input type="last name" className="form-control mt-2" placeholder="Last Name" required=""></input>     
-                            </div>
-                            <div className="col-sm-12">
-                                <input type="email" className="form-control mt-2" placeholder="Email" required=""></input>
-                            </div>
-                            <div className="col-sm-12 mt-2">
-                                <button type="continue" className="btn btn-primary mt-2">Continue</button>  
-                            </div>
+                        <div className="">
+                                <div className="form-floating mb-3"> 
+                                    <input type="text" className="form-control" id="floatingInput" placeholder="First Name" required=""></input> 
+                                    <label for="floatingInput">First Name</label>
+                                </div>
+                                <div className="form-floating mb-3">
+                                    <input type="last name" className="form-control mt-2" id="floatingInput" placeholder="Last Name" required=""></input>
+                                    <label for="floatingInput">Last Name</label>  
+                                </div>
+                                <div className="form-floating mb-3">
+                                    <input type="email" className="form-control mt-2" id="floatingInput" placeholder="Email" required=""></input>
+                                    <label for="floatingInput">Email</label> 
+                                </div>
+                                <div className="col-sm-12 mt-2">
+                                    <button type="continue" className="btn btn-primary mt-2">Continue</button>  
+                                </div>
                         </div>
                     </div>        
                 </div>

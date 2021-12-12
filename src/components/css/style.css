@@ -23,3 +23,6 @@ html,body, #___gatsby, #gatsby-focus-wrapper{
     background-color: darkblue !important;
     color: white !important;
 }
+.mt-10{
+    margin-top: 10%;
+}
