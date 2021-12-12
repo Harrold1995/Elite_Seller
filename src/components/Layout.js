@@ -18,11 +18,7 @@ export default function Layout({children}){
             </Helmet>
             <div id="content" className="site-content landingpage lang-en landing_page h-100">
                 <Header/>
-                <SideBar/>
-                <div>
-                    
-                </div>
-                <main>{children}</main>
+                {children}
                 <Footer/>
             </div>            
         </>
