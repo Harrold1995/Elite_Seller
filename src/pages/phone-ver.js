@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 import '../components/css/style.css';
 
 
-export default function EmailVerify() {
+export default function PhoneVerify() {
     return(
         <>
             <Helmet>                            
@@ -13,9 +13,9 @@ export default function EmailVerify() {
             </Helmet>
             <div className="container">
                 <div className="col-sm-5 offset-sm-4 mt-10">
-                    <p className="fs-4 fw-bold">Email verification</p>
+                    <p className="fs-4 fw-bold">Phone verification</p>
                     <div className="mt-3">
-                        <div className="mb-4">We have just sent a verification code to <b> peter.jiang@skque.com</b></div>
+                        <div className="mb-4">We have just sent a verification code to <b> 6266428210</b></div>
                         <div className="mb-4">Once you get code, enter it below</div>
                         <div className="row">
                             <div className="col-sm-6"> 
@@ -29,7 +29,7 @@ export default function EmailVerify() {
                     <div className="mt-4 mb-4">Click below if you need to change your email address</div>
                         <div className="row">
                             <div className="col-sm-5">
-                                <button type="button" className="form-control text-center">Change Email</button>
+                                <button type="button" className="form-control text-center">Change Number</button>
                             </div>
                         </div>
                 </div>
